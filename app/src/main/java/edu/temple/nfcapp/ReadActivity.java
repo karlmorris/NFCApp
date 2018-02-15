@@ -19,7 +19,7 @@ public class ReadActivity extends Activity {
         setContentView(R.layout.activity_read);
 
         // Pending intent to have tag delivered to this activity
-        
+
         Intent intent = new Intent(ReadActivity.this, ReadActivity.class);
         pi = PendingIntent.getActivity(ReadActivity.this, 0, intent, 0);
 
